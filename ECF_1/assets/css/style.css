@@ -1,0 +1,688 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #242424;            
+    align-items: center;                        
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+a:hover{
+    color: #BE75FA;
+}
+
+li{
+    list-style-type: none; 
+    margin-right: 20px; 
+}
+
+header{
+    background-color: #242424;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+    line-height: 170px;    
+}
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px; 
+    height: 80px;  
+    margin-left: 97px;
+    visibility:visible;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+
+h4{ 
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;   
+}
+
+/*MENU -------------------------------------------------------------*/
+
+.menu{
+    flex-direction: row;
+}
+
+#logo{
+    margin-left: 20px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+/*HEADER -------------------------------------------------------------*/
+
+.phrase{
+    text-align: center;
+}
+
+/*.rond{
+    width: 100px;
+    border: 280px solid #00FF62;
+    background-color: #00FF62;
+    border-radius: 100%;
+    margin-left: 50%;
+    margin-top: -200px;
+}*/
+
+.a-propos{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.cha{
+    color: white; 
+    font-size: 25px;    
+    margin-bottom: 100px;
+}
+
+.entourer{
+    border: 3px solid #00FF62;
+    border-radius: 85%;
+    padding: 20px;
+}
+
+.entourer-2{
+    border: 3px solid #00FF62;
+    border-radius: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.souligner{
+    text-decoration: underline #00FF62;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+.bg-a-propos{
+    background-color: #242424;
+}
+
+/* COMPETENCES -------------------------------------------------------------*/
+
+.img-competences{
+    width: 90px;
+    height: 90px;
+    margin: 10px;    
+}
+
+.square{
+    width: 90px;
+    height: 90px;
+    background-color: #00FF62;
+    margin: 10px;
+}
+
+.adobe{
+    margin-left: -140px;
+    margin-top: -112px;
+}
+
+.bg-competences{
+    background-color: #242424;
+    height: 600px;
+}
+
+.competences{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.h2-text-black{
+    color: black;
+    text-transform: uppercase;
+    margin-left: 97px;
+    padding-top: 130px;
+    font-weight: bold;
+}
+
+.bg-I-do{
+    background-color: #EDEDED;
+    height: 1000px;
+}
+
+.p-text-black{
+    color: black;   
+    font-size: 15px; 
+    margin-right: 185px;
+}
+
+.number-green{
+    color: #00FF62;    
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.description-1, .description-2{
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.title-I-do:hover{
+    border: 3px solid #00FF62;
+    border-radius: 90%;
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+/*REALISATION -------------------------------------------------------------*/
+
+.h2-text-pink{   
+    color: #BE75FA;
+    text-transform: uppercase;
+    margin-left: 97px;
+    padding-top: 130px;
+    font-weight: bold;
+}
+
+.bg-work{
+    background-color: #FADB50;
+    height: 1300px;
+}
+
+.vadrouille{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+
+.company{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.img{
+    width: 400px;
+    height: 250px;
+}
+
+.number{
+    color: #BE75FA;    
+    margin-bottom: 20px;
+    font-size: 40px;   
+}
+
+.title{
+    font-size: larger;   
+    margin-left: 50px;
+}
+
+.title:hover{
+    border: 3px solid #BE75FA;
+    border-radius: 90%;
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.p-text-black-vadrouille{
+    color: black;   
+    font-size: 15px; 
+    width: 200px;   
+    margin-right: 150px;
+    margin-left: 50px; 
+}
+
+.number-company{
+    color: #BE75FA;    
+    margin-bottom: 20px;
+    font-size: 40px; 
+    margin-left: 65px;    
+}
+
+.title-company{
+    font-size: larger;  
+    margin-left: 125px;  
+    margin-right: 30px; 
+}
+
+.title-company:hover{
+    border: 3px solid #BE75FA;
+    border-radius: 90%;
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.p-text-black-company{
+    color: black;   
+    font-size: 15px; 
+    width: 200px;   
+    margin-left: 125px;
+    margin-right: 30px;     
+}
+
+/*EXPERIENCES -------------------------------------------------------------*/
+
+.bg-experience{
+    height: 1500px;
+    background-color: #BE75FA;
+}
+
+.experience{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+.h2-text-yellow{
+    color: #FADB50;
+    text-transform: uppercase;
+    margin-left: 97px;
+    padding-top: 130px;
+    font-weight: bold;
+}
+
+.date{
+    color: #FADB50;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.agence{
+    margin-bottom: -1px;
+}
+
+.adress{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.agence, .adress, .stage{
+    margin-left: 110px;
+}
+
+.marg-stage{
+    margin-left:100px ;
+}
+
+.date-qualif{
+    color: #FADB50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*DIPLOME -------------------------------------------------------------*/
+
+.diplome{    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;    
+}
+
+.diplome-2{
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.pointilles{
+    width: 50%;
+    margin-left: 25%;    
+    margin-top: 30px;
+}
+
+.divider-vertical{
+    border-left: 3px solid #00ff62;
+    height: 30px;
+    width: 10px;
+    margin: 0 auto;
+}
+
+.divider-dotted {
+    border-top: 3px dotted #00ff62;
+    height: 30px;
+    border-right: 3px solid #00ff62;
+  border-left: 3px solid #00ff62;
+}
+
+/*CONTACT -------------------------------------------------------------*/
+
+.contacts{
+    height: 350px;
+    background-color: #242424;
+    padding-top: 100px;
+}
+
+/* .title-contacts{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+    text-decoration: underline solid #00FF62;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+} */
+
+.text-contacts, .text-contacts-marg{
+    color: white;
+    font-weight: lighter;
+}
+
+.marg-contact{
+    margin-top: 70px;
+}
+
+.visibility-hidden{
+    visibility: hidden;
+}
+
+.rounded{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #00FF62;
+    border-radius: 50%;
+    background-color: #00FF62;
+    position: fixed;
+  }
+
+  .animeText {
+    position: relative;
+    font-size: 2em;
+    line-height: 1em!important;
+    font-weight: normal;
+    color: #00FF62; 
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .animeText .text-content {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .animeText .letter {
+    display: inline-block;
+    
+    transform-origin: 0 0;
+  }
+
+
+/*RESPONSIVE -------------------------------------------------------------*/
+
+
+
+@media screen and (max-width: 576px){
+
+    a:hover{
+        color: white;
+    }
+
+    h2{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 60px;
+        line-height: 110px;
+    }
+
+    .title-I-do:hover{
+        border: none;
+        border-radius: none;
+        width: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .title:hover{
+        border: none;
+        border-radius: none;
+        width: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .h2-text-black, .h2-text-yellow, .h2-text-pink{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .cha{
+        font-size: 18px;
+    }
+
+    .p-text-black{
+        margin-right:80px;
+        margin-bottom: 20px;
+    }
+
+    .bg-I-do{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+    .description-1, .description-2{
+        flex-direction: column;
+        margin-left: 40px;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .h2-text-black{
+        padding-top: 70px;
+    }
+
+    .vadrouille, .company{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+   .work{
+       margin-bottom: 30px;
+   }
+
+    .bg-work{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .bg-experience{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .qualif, .ecole{
+        font-size: 15px;
+    }
+
+    .agence, .adress, .stage{
+        margin: 0;
+    }
+
+    .experience-responsive{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .marg-stage{
+        margin-top: 30px;
+    }
+
+    .marg-contacts{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-contacts-marg{
+        margin: 10px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    
+    h2{
+        text-align: center;
+        margin-left: 0;
+    }
+    .h2-text-black, .h2-text-yellow, .h2-text-pink{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .p-text-black{
+        margin-right:10px;
+        margin-bottom: 20px;
+    }
+
+    .description-1, .description-2{
+        margin-left: 150px;
+    }
+
+    .bg-I-do{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .vadrouille, .company{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+   .work{
+       margin-bottom: 30px;
+   }
+
+    .bg-work{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .bg-experience{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .qualif, .ecole{
+    font-size: 15px;
+    }
+
+    .agence, .adress, .stage{
+        margin: 0;
+    }
+
+    .experience-responsive{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .marg-stage{
+        margin-top: 30px;
+    }
+
+    .contacts{
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+
+    .description-1, .description-2{
+        margin-left: 200px;
+    }
+
+    .p-text-black{
+        margin-right:80px;
+        margin-bottom: 20px;
+    }
+
+    .bg-I-do{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .bg-work{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .agence, .adress, .stage{
+        margin-left: 0;
+    }
+
+    .bg-experience{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .agence, .adress, .stage{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .adobe{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .menu{
+        flex-direction: column;
+        padding-top:30px;
+    }
+
+    nav{
+        height: auto;
+    }
+
+    .menu li{
+        padding-bottom: 5px;
+    }
+}
